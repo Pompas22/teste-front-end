@@ -54,6 +54,7 @@ export default function Login({setLoggedUser}) {
         {error && <div style={{ color: "red", marginBottom: "10px" }}>{error}</div>}
         <button type="submit" style={{ marginBottom: "15px" }} >Login</button>
         <Link to="/register">Cadastrar</Link>
+        <Link to="/forgot-password">Esqueci minha senha</Link>
       </form>
     </div>
   );

@@ -27,7 +27,7 @@ export default function Register() {
       return;
     }
 
-    users.push({ name, user, password });
+    users.push({ name, user, password, email });
     localStorage.setItem("users", JSON.stringify(users));
     navigate("/");
   }
